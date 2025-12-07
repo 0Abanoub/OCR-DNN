@@ -8,24 +8,10 @@ Small project implementing character-level OCR using PyTorch.
 - Notebook: `OCR.ipynb` contains data loading, preprocessing, training and evaluation
 - Goal: build a robust character recognizer and later extend to sequence OCR (CRNN / CTC)
 
-## Repo structure
-ocr-character-classifier/
-├─ data/ # NOT included in repo (ignored)
-├─ notebooks/
-│ └─ OCR.ipynb
-├─ src/
-│ ├─ dataset.py
-│ └─ model.py
-├─ requirements.txt
-├─ label2idx.json
-├─ README.md
-└─ .gitignore
-
-
 ## How to run (locally)
 1. Clone repo:
-   git clone https://github.com/<your_username>/<repo_name>.git
-   cd <repo_name>
+   git clone https://github.com/0Abanoub/OCR-DNN.git
+   cd OCR-DNN
 
 2. Create virtual env & install:
    python -m venv venv
