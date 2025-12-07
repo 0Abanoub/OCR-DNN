@@ -15,10 +15,11 @@ Small project implementing character-level OCR using PyTorch.
 
 2. Create virtual env & install:
    python -m venv venv
-   source venv/bin/activate   # or venv\Scripts\activate on Windows
+   source venv/bin/activate
+   # or venv\Scripts\activate on Windows
    pip install -r requirements.txt
    
-3. Place your data/ folder (not committed) in the project root:
+4. Place your data/ folder (not committed) in the project root:
    data/
      Training set/
      Testing set/
